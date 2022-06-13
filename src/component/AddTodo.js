@@ -41,7 +41,6 @@ class AddTodo extends Component {
             value={this.state.content}
           />
           <Button
-            data-testid='new-item-button'
             style={{ marginLeft: "10px" }}
             onClick={this.handleSubmit}
             variant="contained"
